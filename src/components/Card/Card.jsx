@@ -14,8 +14,7 @@ const Card = ({
   return (
     <div
       className={`${styles.card_container} ${pad ? styles.pad : ''}
-      }`}
-    >
+      }`}>
       <h2>{title}</h2>
       <p>{description}</p>
       <div className={tags ? styles.margin : ''}>
